@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <tilte>
+        <h1>Table </h1>
+    </tilte>
+</head>
+
+<body>
+    <form action="abc.php" name="myform" onsubmit="return(validate())">
+        <div class="container">
+            <Table cellspacing="2" border="1">
+                <tr>
+                    <td align="right">Name</td>
+                    <td><input type="text" name="Name"></td>
+                </tr>
+                <tr>
+                    <td align="right">Email</td>
+                    <td><input type="text" name="Email"></td>
+                </tr>
+                <tr>
+                    <td align="right">Zip code</td>
+                    <td><input type="text" name="Zip code"></td>
+                </tr>
+                <tr>
+                    <td align="right">Country</td>
+                    <td>
+                        <select name="Country">
+                            <option value="-1" selected>[Choose yours]</option>
+                            <option value="1">USA</option>
+                            <option  value="2">UK</option>
+                            <option value="3">INDIA</option>
+                        </select>
+                    </td>
+                </tr>
+            </Table>
+        </div>
+    </form>
+</body>
+
+</html>
