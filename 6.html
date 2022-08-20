@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--comments start here -->
+<!-- this is doctype comment with forward slash -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--this is how to link your different style css sheets into your html program -->
+    <title>Document heading paragraphs and emmets</title>
+</head>
+
+<body>
+    <h1>vibha rani</h1>
+    <h2>vibha rani</h2>
+    <h3>vibha rani</h3>
+    <h4>vibha rani</h4>
+    <h5>vibha rani</h5>
+    <h6>vibha rani</h6>
+    <h1>
+        <p>hi there new html learning</p>
+    </h1>
+    <!-- <em></em> tag is used to emphasize on special letters or lines by changling it in italics font -->
+    <!-- <strong></strong> tag is used to make the lines or etters in between as bold  -->
+    <!-- we are not recomended to use bold and italic tags instead recomended to use strong and em tag although we have bold and italic tag as well -->
+    <!-- <strong></strong> tags syntax
+         <em></em> tag syntax 
+         <b></b> blod tags syntax
+         <I></I> italics tags sytax -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quis, earum aut<b> nobis</b> eum neque
+        <I>eaque vero</I> laborum maxime temporibus dolorem culpa,<strong> <em>libero ducimus delectus quas amet velit</em></strong>. Rem, soluta!..</p>
+    <p>
+        first line <br> second line
+    </p>
+    <!-- to implement multiple paragraphs we can use p*45 which will give us 45 paragraph tags example is shown below as i use p*4 which provide me with 4 paragraph tags-->
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <!-- we can use ctrl+enter to jump to new line -->
+    <!-- NOw to work with links -->
+    <a href="https://google.com"target="_blank">Go to google</a><br><!---Target attribute opens up our link in new tab-->
+    <a href="https://twitter.com"target="_blank">Go to twitter</a><br>
+    <!-- image is not present alt attribute is used  -->
+    <img src="https://images.unsplash.com/face-springmorning.jpg?q=80&fm=jpg&crop=faces&fit=crop&h=64&w=64" alt="error loading image">
+
+    <!-- tables nd list -->
+    <ol type="a">
+        <li>vibha</li>
+        <li>vaibhav</li>
+    </ol>
+    <ul type="square">
+        <li>vibha</li>
+        <li>vaibhav</li>
+    </ul> 
+
+    <!-- tables -->
+    <!-- thead is used for table head details tbody is used for table body  -->
+    <h3> html table</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>Employee Id</th>
+                <th>Employee Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vibha rani</td>
+                <td>3434</td>
+                <td>programmer </td>
+            </tr>
+            <tr>
+                <td>Harry styles</td>
+                <td>3400</td>
+                <td>HTML expert </td>
+            </tr>
+            <tr>
+                <td>Sukriti</td>
+                <td>3567</td>
+                <td>Android devveloper </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- making of forms -->
+    <form>
+    NAME:   <input type="text" value="" name="student name"><br>
+    ROLE:   <input type="text" value="" name="student roll"><br>
+    Email:   <input type="text" value="" name="student email"><br>
+    DATE :  <input type="date" value="" name="dateofbirth"><br>
+     <input type="submit" value="Submit now"><br>
+    BONUS:  <input type="number" name="bonus"><br>
+    are u eligible: <input type="checkbox" name="myeligibilty">
+    Gender : Male<input type="radio" name="gender" value="">  Female<input type="radio" name="gender" value="">
+    </form>
+    <div>
+        write about yourself: <br><textarea name="my text" cols="30" rows="10">oneself</textarea>
+    </div>
+    <!-- Here select tag will give you drop  down options to select from with using option tag and if we use selected in option tag then that tag will by default be selected  -->
+    <div>
+        <label  for= "car">Car</label>
+        <select name="mycar" id="car">
+            <option value="ind">Indica</option>
+            <option value="swf" selected>Swift</option>
+        </select>
+    </div>
+
+</body>
+
+</html>
